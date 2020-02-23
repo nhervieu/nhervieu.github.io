@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap');
+
+body {
+
+  font-style: normal;
+  background-color:#fffff;
+  font-family: 'Merriweather Sans';
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+p {
+  font-style: normal;
+  font-size: 1em;
+}
+
+
+.profilepic {
+  border-radius: 50%;
+  float: right;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #c8e6dd;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 25%; /* Set the width of the sidebar */
+  background-color: #f0f0f0; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 75%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.grid-container {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+  grid-row-gap: 5%;
+  grid-column-gap: 10%;
+}
+
+
+.griditem {
+  vertical-align: bottom;
+}
+
+
+.headingIcon{
+vertical-align: text-bottom;
+}
