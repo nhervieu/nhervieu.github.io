@@ -47,7 +47,8 @@ ul {
 
 .profilepic {
   border-radius: 50%;
-  float: right;
+  vertical-align: middle;
+  float: left;
 }
 
 .header {
@@ -124,3 +125,13 @@ ul {
 .headingIcon{
 vertical-align: text-bottom;
 }
+
+footer { 
+  display: block;
+  background: #c8e6dd;
+  }
+
+  a {
+  color: white;
+}
+

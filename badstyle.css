@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 
 body{
   background:url(stars.jpg);
@@ -146,4 +147,13 @@ img {
 
 .headingIcon{
 vertical-align: text-bottom;
+}
+
+footer { 
+  display: block;
+  background: yellow;
+  }
+
+  a {
+  color: red;
 }
