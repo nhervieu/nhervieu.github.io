@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Akronim|Monoton|Press+Start+2P|Sacramento|Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ewert&display=swap');
 
 body{
@@ -69,14 +66,14 @@ img {
 .profilepic {
   border-radius: 20%;
   float: right;
-  border-image: url(stars.png) 30 round;
+  border-image: url(images/stars.png) 30 round;
   border:"5"
 }
 
 .header {
   padding: 50px;
   text-align: center;
-  background:url("PIA13005_medium.jpg");
+  background:url("images/PIA13005_medium.jpg");
   color: white;
   font-size: 30px;
 }
@@ -97,7 +94,7 @@ img {
 /* Sidebar/left column */
 .side {
   flex: 25%; /* Set the width of the sidebar */
-  background:url("PIA21519_orig.jpg");
+  background:url("images/PIA21519_orig.jpg");
   background-color: #f0f0f0; /* Grey background color */
   padding: 20px; /* Some padding */
 }
@@ -106,7 +103,7 @@ img {
 .main {
   flex: 75%; /* Set the width of the main content */
   padding: 20px; /* Some padding */
-  background: url(stars.jpg);
+  background: url(images/stars.jpg);
 
 }
 
@@ -136,14 +133,14 @@ img {
   grid-row-gap: 5%;
   grid-column-gap: 5%;
   padding-bottom: 120px;
-  background:url("PIA09653_orig.jpg");
+  background:url("images/PIA09653_orig.jpg");
 
 }
 
 
 .griditem {
   vertical-align: bottom;
-  background:url("PIA09653_medium.jpg");
+  background:url("images/PIA09653_medium.jpg");
 }
 
 
