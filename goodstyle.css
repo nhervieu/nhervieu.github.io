@@ -39,6 +39,11 @@ p {
   font-size: 1em;
 }
 
+ul {
+  font-style: normal;
+  font-size: 1em;
+}
+
 
 .profilepic {
   border-radius: 50%;

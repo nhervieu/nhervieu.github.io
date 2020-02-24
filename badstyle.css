@@ -6,164 +6,81 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ewert&display=swap');
 
-body {
-	margin-left: 15%;
-  margin-right: 15%;
-  font-style: normal;
+body{
+  background:url(stars.jpg);
 }
 
 h1 {
+  color: yellow;
   font-weight: bold;
+  font-size: 4em;
   font-family: 'Lacquer'; 
-  font-size: 5em;
 }
 
 h2 {
+  colour: #fffcb3;
   font-weight: bold;
+  font-size: 3.5em;
   font-family: 'Creepster';
-  font-size: 4em;
 }
 
 h3 {
+  color:#fffcb3;
   font-weight: bold;
+  font-size: 1.9em;
   font-family: 'Ewert';
-  font-size: 3.5em;
+
 }
 
 h4 {
+  color:white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 1.5em;
   font-family: 'Sacramento';
 }
 
 h5 {
-  font-weight: bold;
-  font-size: 2.1em;
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
   font-family: 'Sacramento';
 }
 
 p {
-	font-style: normal;
-	font-size: 2em;
+  color:white;
+  font-style: normal;
+  font-size: 1.3em;
   font-family: 'VT323';
 }
 
 
-.profilepic {
-  border-radius: 50%;
-  float: right;
-}
-
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #b08e07;
-  color: white;
-  font-size: 30px;
-}
-
-
-
-/* Ensure proper sizing */
-* {
-  box-sizing: border-box;
-}
-
-/* Column container */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%; /* Set the width of the sidebar */
-  background-color: #b08e07; /* Grey background color */
-  padding: 20px; /* Some padding */
-}
-
-/* Main column */
-.main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  justify-content: space-evenly;
-  align-content: center;
-  grid-row-gap: 20%;
-  grid-column-gap: 10%;
-}
-
-body {
-
+ul {
+  color:white;
   font-style: normal;
   font-size: 1.3em;
-  font-family: 'Merriweather Sans';
-}
-
-h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 4em;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 2em;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-h4 {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-p {
-  font-style: normal;
-  font-size: 1em;
+  font-family: 'VT323';
 }
 
 img {
-  
+  background:white;
+  filter: grayscale(100%);
 }
 
 .profilepic {
-  border-radius: 50%;
+  border-radius: 20%;
   float: right;
+  border-image: url(stars.png) 30 round;
+  border:"5"
+  filter: grayscale(100%);
 }
 
 .header {
-  padding: 60px;
+  padding: 50px;
   text-align: center;
-  background: #c8e6dd;
+  background:url("PIA13005_medium.jpg");
   color: white;
   font-size: 30px;
+
 }
 
 
@@ -182,16 +99,18 @@ img {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
+  flex: 25%; /* Set the width of the sidebar */
+  background:url("PIA21519_orig.jpg");
   background-color: #f0f0f0; /* Grey background color */
   padding: 20px; /* Some padding */
 }
 
 /* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
+  flex: 75%; /* Set the width of the main content */
   padding: 20px; /* Some padding */
+  background: url(stars.jpg);
+
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -213,9 +132,24 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  margin: 5%;
   grid-template-rows: auto auto;
   justify-content: space-evenly;
   align-content: center;
-  grid-row-gap: 20%;
-  grid-column-gap: 10%;
+  grid-row-gap: 5%;
+  grid-column-gap: 5%;
+  padding-bottom: 120px;
+  background:url("PIA09653_orig.jpg");
+
+}
+
+
+.griditem {
+  vertical-align: bottom;
+  background:url("PIA09653_medium.jpg");
+}
+
+
+.headingIcon{
+vertical-align: text-bottom;
 }
