@@ -63,7 +63,7 @@ ul {
 
 img {
   background:white;
-  filter: grayscale(100%);
+  filter: sepia(60%) hue-rotate(90deg);
 }
 
 .profilepic {
@@ -71,7 +71,6 @@ img {
   float: right;
   border-image: url(stars.png) 30 round;
   border:"5"
-  filter: grayscale(100%);
 }
 
 .header {
@@ -80,9 +79,7 @@ img {
   background:url("PIA13005_medium.jpg");
   color: white;
   font-size: 30px;
-
 }
-
 
 
 /* Ensure proper sizing */
