@@ -21,16 +21,16 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: 1.5em;
-
+  color: #9dc7ba;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 h5 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1em;
 }
 
@@ -78,13 +78,17 @@ ul {
   flex: 25%; /* Set the width of the sidebar */
   background-color: #f0f0f0; /* Grey background color */
   padding: 20px; /* Some padding */
+  padding-top: 2em;
 }
 
 /* Main column */
 .main {
   flex: 75%; /* Set the width of the main content */
   background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
+  padding-left: 3em; /* Some padding */
+  padding-top: 2em;
+  padding-right: 3em;
+  padding-bottom: 2em;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
